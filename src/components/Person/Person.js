@@ -10,12 +10,12 @@ const Person = (props) => {
 
     return (
             
-        <div className="col-3 m-3 rounded-3 mb-2 py-3 bg-secondary  text-white">
+        <div className="col-3 m-4 rounded-3 mb-2 p-3 bg-secondary  text-white">
             <div>
             <img src={img} alt="" />
             </div>
             <div class="p">
-            <h5 className="text-white">Name:{name}</h5>
+            <h5 className="text-white py-2">{name}</h5>
             <p><small>Age: {age}</small></p>
                 <p>Country: {country}</p>
                 <p>Subscriber: {subscriber}</p>

@@ -22,10 +22,10 @@ const Youtube = () => {
             setCart(newCart);
         }
     return (
-        <div className="row">
+        <div className="container row">
             <div className="col-9">
 
-                <div className="container row">
+                <div className=" row">
 
                     {
                     person.map(person => <Person 
@@ -39,7 +39,7 @@ const Youtube = () => {
                 </div>
             </div>
             
-            <div className="col-3 p-2">
+            <div className="col-3">
                 <Cart cart={cart}></Cart>
             </div>
     

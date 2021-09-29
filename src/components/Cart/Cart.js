@@ -12,7 +12,7 @@ const Cart = (props) => {
 
 
     return (
-        <div className="bg-primary bg-opacity-50 p-2">
+        <div className="bg-primary bg-opacity-50 p-3 mt-4 rounded-3">
             <h5>Added Channel List</h5>
             <h4>Total Channel:{props.cart.length}</h4>
 
