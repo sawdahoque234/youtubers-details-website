@@ -1,0 +1,15 @@
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.button {
+  background-color: orange;
+  padding: 5px;
+  width: 150px;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid gainsboro;
+  font-weight: 500;
+}

@@ -1,0 +1,12 @@
+.youtuber-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin: 20px;
+}
+.cart-conatiner {
+  margin-left: 5px;
+}
+.person-container {
+  margin-left: 10px;
+  box-shadow: greenyellow;
+}
