@@ -19,7 +19,7 @@ const Person = (props) => {
             <p><small>Age: {age}</small></p>
                 <p>Country: {country}</p>
                 <p>Subscriber: {subscriber}</p>
-                <p>Earn: ${earn}</p>
+                <p>Earn: $ {earn}</p>
 
                 <button onClick={()=>props.addtocart(props.person)}
                     className="button btn-danger"><FontAwesomeIcon icon={faShoppingCart} /> Add to cart</button>

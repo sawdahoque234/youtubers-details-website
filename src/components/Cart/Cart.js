@@ -16,7 +16,7 @@ const Cart = (props) => {
             <h5>Added Channel List</h5>
             <h4>Total Channel:{props.cart.length}</h4>
 
-            <h4>Total: ${total}</h4>
+            <h4>Total: $ {total}</h4>
            <h5>Your Added list: {
                 cart.map(person => <li>{person.name}</li>)
             }</h5>
